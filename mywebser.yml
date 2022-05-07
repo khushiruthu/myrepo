@@ -1,6 +1,6 @@
 ---
 - hosts: 172.31.17.124
-- name: i want to install apache2
+- name: i want install git
   apt:
-    name: apache2
+    name: git
     status: present
