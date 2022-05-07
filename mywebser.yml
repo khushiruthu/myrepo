@@ -1,5 +1,5 @@
 ---
-- hosts: 172.31.17.124
+- hosts: all
 - name: i want install git
   apt:
     name: git
