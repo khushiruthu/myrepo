@@ -1,4 +1,4 @@
 ---
-- hosts: webservers
+- hosts: all
 - name: install apache2
   apt: name=apache2 status=latest
