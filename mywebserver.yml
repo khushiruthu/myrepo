@@ -3,4 +3,6 @@
   become: yes
   tasks:
 - name:  i want to install apache2
-  apt: name=apache2 status=present
+  apt: 
+    name: apache2 
+    status: present
